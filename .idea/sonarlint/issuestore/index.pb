@@ -9,3 +9,7 @@ Fapp/src/main/java/com/sergio/rodriguez/testanimation/ui/theme/Theme.kt,9\5\953
 Tapp/src/main/java/com/sergio/rodriguez/testanimation/animaciones/AnimationContent.kt,7\f\7f7e70275bb534449e4d4308496cc490200800c7
 t
 Dapp/src/main/java/com/sergio/rodriguez/testanimation/MainActivity.kt,c\9\c92cadbadd19c4aa91ea843240731a4c09bc0c29
+†
+Vapp/src/main/java/com/sergio/rodriguez/testanimation/animaciones/AnimateContentSize.kt,5\f\5fc86c616b9e43c5a79aa0c04984abe3e65dd312
+}
+Mapp/src/main/java/com/sergio/rodriguez/testanimation/animaciones/Crossfade.kt,4\5\45555d09d302968466ed2e5a2e14593a2bac9fc2
