@@ -5,21 +5,16 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.sergio.rodriguez.testanimation.animaciones.AnimatedReuseAnimationWithObjectTransition
-import com.sergio.rodriguez.testanimation.animaciones.InfiniteColorAnimation
+import com.sergio.rodriguez.testanimation.animationLowLevel.ExampleAnimatableBasic
 import com.sergio.rodriguez.testanimation.ui.theme.TestAnimationTheme
 
-/**
- * Main activity
- *
- * @constructor Create empty Main activity
- */
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             TestAnimationTheme {
-                InfiniteColorAnimation()
+                ExampleAnimatableBasic()
             }
         }
     }
@@ -65,7 +60,10 @@ fun AnimatedVisibilityPreview() {
         //AnimatedReuseAnimationWithObjectTransition()
 
         /*Animaciones infinitas*/
-        InfiniteColorAnimation()
+        //InfiniteColorAnimation()
+
+        /*Animaciones de Bajo nivel*/
+        ExampleAnimatableBasic()
 
     }
 }
