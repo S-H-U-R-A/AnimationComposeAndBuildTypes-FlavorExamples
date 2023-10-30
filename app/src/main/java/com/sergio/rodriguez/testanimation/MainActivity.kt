@@ -1,10 +1,12 @@
 package com.sergio.rodriguez.testanimation
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.sergio.rodriguez.testanimation.animaciones.InfiniteColorAnimation
 import com.sergio.rodriguez.testanimation.animationLowLevel.ExampleAnimatableBasic
 import com.sergio.rodriguez.testanimation.ui.theme.TestAnimationTheme
 
@@ -14,7 +16,22 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             TestAnimationTheme {
-                ExampleAnimatableBasic()
+
+                if(BuildConfig.BUILD_TYPE == "debug") {
+                    InfiniteColorAnimation()
+                }
+
+                if(BuildConfig.FLAVOR  == "free"){
+                    InfiniteColorAnimation()
+                }else{
+                    ExampleAnimatableBasic()
+                }
+
+                val url = BuildConfig.SHOW_POPUP
+                Log.d("MainActivity", "MOSTRAR POPUP: $url")
+
+
+
             }
         }
     }

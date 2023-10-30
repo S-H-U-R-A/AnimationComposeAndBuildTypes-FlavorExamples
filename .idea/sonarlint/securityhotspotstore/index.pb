@@ -13,3 +13,17 @@ Dapp/src/main/java/com/sergio/rodriguez/testanimation/MainActivity.kt,c\9\c92ca
 Vapp/src/main/java/com/sergio/rodriguez/testanimation/animaciones/AnimateContentSize.kt,5\f\5fc86c616b9e43c5a79aa0c04984abe3e65dd312
 }
 Mapp/src/main/java/com/sergio/rodriguez/testanimation/animaciones/Crossfade.kt,4\5\45555d09d302968466ed2e5a2e14593a2bac9fc2
+@
+build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+ç
+]app/src/main/java/com/sergio/rodriguez/testanimation/animaciones/AnimationUpdateTransition.kt,3\5\355680b9b4c3d19496f113ec9f83ae614527816f
+Ö
+Uapp/src/main/java/com/sergio/rodriguez/testanimation/animaciones/AnimationInfinite.kt,6\1\6170bc6f155ac329be21124bbe1aaa0400a0b366
+Ñ
+Tapp/src/main/java/com/sergio/rodriguez/testanimation/animationLowLevel/Animatable.kt,d\8\d86d873e5f576e9697d2805d4d27538fe9987d02
