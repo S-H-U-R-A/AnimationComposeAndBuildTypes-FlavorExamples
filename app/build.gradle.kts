@@ -107,7 +107,7 @@ android {
 
 dependencies {
 
-    dokkaPlugin("org.jetbrains.dokka:android-documentation-plugin:1.9.0")
+    dokkaPlugin("org.jetbrains.dokka:android-documentation-plugin:${Versions.dokka}")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")

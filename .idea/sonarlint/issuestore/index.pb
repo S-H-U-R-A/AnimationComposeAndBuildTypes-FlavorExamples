@@ -27,3 +27,13 @@ D
 Uapp/src/main/java/com/sergio/rodriguez/testanimation/animaciones/AnimationInfinite.kt,6\1\6170bc6f155ac329be21124bbe1aaa0400a0b366
 „
 Tapp/src/main/java/com/sergio/rodriguez/testanimation/animationLowLevel/Animatable.kt,d\8\d86d873e5f576e9697d2805d4d27538fe9987d02
+A
+gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+C
+settings.gradle.kts,7\4\749edfcc96398253e5b3416184e95c46621da850
+I
+buildSrc/build.gradle.kts,d\9\d90b697280fada81e52ec92d24725920f1cb087b
+T
+$buildSrc/src/main/kotlin/Versions.kt,d\f\df7250bdfd4d4cbe77a1ebc3b950afc6e6bcfecd
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c

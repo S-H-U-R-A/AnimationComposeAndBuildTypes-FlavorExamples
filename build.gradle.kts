@@ -5,6 +5,7 @@ import org.jetbrains.dokka.gradle.DokkaTask
 plugins {
     id("com.android.application") version "8.1.2" apply false
     id("org.jetbrains.kotlin.android") version "1.8.10" apply false
-    id("org.jetbrains.dokka") version "1.9.0" apply false
+    id("org.jetbrains.dokka") version Versions.dokka apply false
+    id("com.android.library") version "8.1.2" apply false
 }
 

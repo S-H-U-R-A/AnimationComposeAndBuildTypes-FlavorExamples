@@ -30,8 +30,6 @@ class MainActivity : ComponentActivity() {
                 val url = BuildConfig.SHOW_POPUP
                 Log.d("MainActivity", "MOSTRAR POPUP: $url")
 
-
-
             }
         }
     }
@@ -81,6 +79,5 @@ fun AnimatedVisibilityPreview() {
 
         /*Animaciones de Bajo nivel*/
         ExampleAnimatableBasic()
-
     }
 }
