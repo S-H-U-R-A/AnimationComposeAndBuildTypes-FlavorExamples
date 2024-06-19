@@ -1,0 +1,1 @@
+/Users/shura/AndroidStudioProjects/AnimationComposeAndBuildTypes-FlavorExamples/buildSrc/build/classes/kotlin/main/Versions.class
